@@ -11,6 +11,13 @@ namespace Restaurant
             public double Price { get; set; }
             public string Description { get; set; }
             public ItemTypes Category { get; set; }
+            public bool IsNew
+            {
+                get
+                {
+                    return DateAdded.Date >= DateTime.Now.Date.AddMonths(-3);
+                }
+            }
             public MenuItem(string itemName, string description, double price, ItemTypes category)
             {
                 Name = itemName;
@@ -22,17 +29,6 @@ namespace Restaurant
             public void Print()
             {
                 Console.WriteLine(ToString());
-            }
-            public bool IsNew()
-            {
-                if (DateAdded <= DateTime.Now.AddMonths(-3))
-                {
-                    return true;
-                }
-                else
-                {
-                    return false;
-                }
             }
             public override string ToString()
             {
