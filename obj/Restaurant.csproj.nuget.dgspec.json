@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emmac\\source\\repos\\restaurant-studio\\Restaurant\\Restaurant.csproj": {}
+    "C:\\Users\\emmac\\source\\repos\\restaurant-studio\\Restaurant.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emmac\\source\\repos\\restaurant-studio\\Restaurant\\Restaurant.csproj": {
+    "C:\\Users\\emmac\\source\\repos\\restaurant-studio\\Restaurant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emmac\\source\\repos\\restaurant-studio\\Restaurant\\Restaurant.csproj",
+        "projectUniqueName": "C:\\Users\\emmac\\source\\repos\\restaurant-studio\\Restaurant.csproj",
         "projectName": "Restaurant",
-        "projectPath": "C:\\Users\\emmac\\source\\repos\\restaurant-studio\\Restaurant\\Restaurant.csproj",
+        "projectPath": "C:\\Users\\emmac\\source\\repos\\restaurant-studio\\Restaurant.csproj",
         "packagesPath": "C:\\Users\\emmac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emmac\\source\\repos\\restaurant-studio\\Restaurant\\obj\\",
+        "outputPath": "C:\\Users\\emmac\\source\\repos\\restaurant-studio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emmac\\AppData\\Roaming\\NuGet\\NuGet.Config",
